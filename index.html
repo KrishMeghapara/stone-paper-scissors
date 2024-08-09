@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #874F14;">
+    <div style=" align-content: center;justify-content: center;display: flex;color: #fBE9D0;">
+      stone-paper-scissors
+    </div>
+    
+    <div style="display: flex;justify-content: center;margin-left: 20px;">
+       
+        <button style="background-color: white; border: 0; width: 200px; margin: 20px; background-color: #874F14;" onclick="spin(1)">
+            <img src="./Stone.png" style=" width: 200px;"id="player2"/>
+        </button>
+
+        <button style="background-color: white; border: 0; width: 200px; margin: 20px; background-color: #874F14;" onclick="spin(2)">
+      <img src="./Paper.png" style=" width: 200px;" id="player1"/>
+        </button>
+       
+        <button style="background-color: white; border: 0; width: 200px; margin: 20px; background-color: #874F14;" onclick="spin(3)">
+      <img src="./scissor.png" style=" width: 200px;" id="player3"/>
+        </button>
+
+    </div>
+
+    <div>
+      <div id="textprint" style="justify-content: center;display: flex;margin-top: 100px; padding-bottom: 50px;color: #fBE9D0;">   
+        Click On button To start the Game! You vs Comuter. 
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+      <div id="ScoreWin" style="justify-content: center;padding-right: 12.5; color: #fBE9D0;">   
+        You Win : <p id="Wins"> 0</p>
+      </div>
+      <div id="ScoreLose" style="justify-content: center; padding-left: 12.5px;color: #fBE9D0;">   
+        You Lose : <p id="Loses"> 0</p>
+      </div>
+    </div>
+
+    <div style="display: flex;align-items: center;justify-content: center;margin-right: 15px; background-color: #874F14;color: #874F14;">
+      <button style="color:#fBE9D0;background-color:#E64833;border: 0;width: 100px; height: 25px;border-radius: 12.5%;" onclick="reset()">
+        Reset
+      </button>
+    </div>
+    
+
+    <script src="./script.js">
+    </script>
+  </body>
+</html>
