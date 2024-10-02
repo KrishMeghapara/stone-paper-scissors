@@ -1,1 +1,1 @@
-i maid this game using JS and the logic is my but i use ChatGpt For Style 
+I Made This Game Using JS And The Logic Is My But I Use ChatGpt For Style 
